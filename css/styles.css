@@ -79,7 +79,7 @@ font-size: 16px;
 line-height: calc(24 / 16);
 color:var(--gray-color);
 padding-bottom: 24px;
-transition: var(--overlay-time);
+transition: color var(--overlay-time);
 }
 .top:hover{
 color: #434455;
@@ -169,7 +169,7 @@ margin: 48px auto 0;
 display: block;
 border: none;
 border-radius: 4px;
-transition: var(--overlay-time);
+transition: color var(--overlay-time);
 
  }
  .section-button:hover{
@@ -233,7 +233,7 @@ justify-content: center;
    margin: 0;
    padding: 0;
    padding: 24px 100px;
-   transition: var(--overlay-time);  
+   transition: color var(--overlay-time);  
  }
 
  .section-item :hover{
@@ -258,7 +258,7 @@ height:64px;
  .title{
     margin-right: 24px;
     display: block;
-    transition: var(--overlay-time);
+    transition: border var(--overlay-time), color var(--overlay-time);
  }
  .title :hover{
    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -411,7 +411,7 @@ align-items: center;
 justify-content: center;
 color:  #8E8F99;
 border:#8E8F99;
-transition: var(--overlay-time); 
+transition: color var(--overlay-time), border var(--overlay-time); 
 }
 
 .customers-color:hover{
@@ -506,7 +506,7 @@ margin: 0;
    height: 40px;
 margin: 0;
 margin-right: 16px;
-transition: var(--overlay-time);
+transition: color var(--overlay-time);
  }
  .footer-link :last-child{
    margin: 0;
@@ -557,7 +557,7 @@ transition: var(--overlay-time);
    display: block;
    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
    position: relative;
-   transition: var(--overlay-time);
+   transition: color var(--overlay-time);
  }
  
 .portfolio-link:hover{
@@ -585,7 +585,7 @@ padding: 8px 16px;
     border: none;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
-transition: var(--overlay-time);
+transition: color var(--overlay-time);
  }
  .btn:focus{
 color: var(--white-color);
@@ -680,7 +680,7 @@ background: #E7E9FC;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
 cursor: pointer;
-transition: var(--overlay-time);
+transition: color var(--overlay-time);
  }
  
  .modal-btn:hover{
